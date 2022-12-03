@@ -1,9 +1,9 @@
-import { resolve } from 'node:path'
+import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 
-const root = resolve(fileURLToPath(import.meta.url), '..')
-const r = (p: string) => resolve(root, p).replace(/\\/, '/')
+const root = dirname(fileURLToPath(import.meta.url))
+const r = (p: string) => resolve(root, p)
 export default defineConfig({
   resolve: {
     alias: {
