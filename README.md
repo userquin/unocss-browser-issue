@@ -1,4 +1,4 @@
-# Temporary workaorund for @unocss/preset-icons/browser
+# Temporary workaround for @unocss/preset-icons/browser
 
 Check following entries in `UnoCSS` repository:
 - https://github.com/unocss/unocss/discussions/1953
